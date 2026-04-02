@@ -56,4 +56,4 @@ if ingredients_list:
     import requests  
     smoothiefroot_response = requests.get("https://www.smoothiefroot.com/api/fruit/orange")  
     #st.text(smoothiefroot_response.json())
-    sf_df = st.dataframe(data=smoothiefroot_repsonse.json(), use_container_width=True)
+    sf_df = st.dataframe(data=smoothiefroot_respsonse.json(), use_container_width=True)
