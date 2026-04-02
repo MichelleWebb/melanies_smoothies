@@ -53,6 +53,6 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered ' + name_on_order, icon="✅")
 
-import requests  
-smoothiefroot_response = requests.get("https://www.smoothiefroot.com/api/fruit/orange")  
-st.text(smoothiefroot_response.json())
+    import requests  
+    smoothiefroot_response = requests.get("https://www.smoothiefroot.com/api/fruit/orange")  
+    st.text(smoothiefroot_response.json())
