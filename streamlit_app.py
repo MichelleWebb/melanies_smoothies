@@ -54,5 +54,5 @@ if ingredients_list:
         st.success('Your Smoothie is ordered ' + name_on_order, icon="✅")
 
 import requests  
-smoothiefroot_response = requests.get("[https://my.smoothiefroot.com/api/fruit/watermelon](https://my.smoothiefroot.com/api/fruit/watermelon)")  
+smoothiefroot_response = requests.get("[https://www.smoothiefroot.com/api/fruit/orange](https://www.smoothiefroot.com/api/fruit/orange)")  
 st.text(smoothiefroot_response)
